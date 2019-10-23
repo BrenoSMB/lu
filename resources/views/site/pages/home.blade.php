@@ -52,9 +52,9 @@
     <section id="salon" class="col-padtop wow fadeInUp">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-6 col-padright-none wow fadeInLeft"><img src="https://www.placehold.it/587x500" alt="Saloon"/></div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight"><img src="https://www.placehold.it/587x250" alt="Saloon"/></div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight"><img src="https://www.placehold.it/587x250" alt="Saloon"/></div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-padright-none wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;"><img src="{{ action('CropImageController@crop', ['modelo.jpg', 587, 600]) }}" alt="Saloon"></div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;"><img src="{{ action('CropImageController@crop', ['modelo.jpg', 587, 300]) }}" alt="Saloon"></div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-padleft-none wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;"><img src="{{ action('CropImageController@crop', ['modelo.jpg', 587, 300]) }}" alt="Saloon"></div>
             </div>
         </div>
     </section>
@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4">
-                    <h2>Meet our Expert Stylists</h2>
+                    <h2>CONHEÇA NOSSOS ESTILISTAS ESPECIALISTAS</h2>
                     <div class="ourteamd">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus. Nullam non neque eros. Pellentesque nec vulputate eros.</p>
                     </div>
@@ -460,7 +460,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Proud portfolio</h2>
+                    <h2>Portfolio</h2>
                 </div>
                 <div class="col-lg-12 filter">
                     <ul>
@@ -572,7 +572,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="bg-gray">
-                        <h2 class="text-center">Promotions and Specials</h2>
+                        <h2 class="text-center">PROMOÇÕES ESPECIAIS</h2>
                         <div class="col-sm-12 col-lg-12">
                             <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner" role="listbox">
@@ -626,7 +626,7 @@
     <section class="testimonialdiv wow fadeInUp">
         <div class="container">
             <div class="testimonilabg">
-                <h2>Testimonials</h2>
+                <h2>Depoimentos</h2>
                 <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
